@@ -116,7 +116,7 @@ String processor(const String& var){
 void setup() {
   Serial.begin(115200);
   dht.begin();
-  WiFi.begin("ABB_Gym_IOT", "Welcome2abb");  // Replace with your WiFi credentials
+  WiFi.begin("SSID", "PASSWORD");  // Replace with your WiFi credentials
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
